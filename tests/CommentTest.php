@@ -1,8 +1,9 @@
 <?php
 
 use Corcel\Comment;
+use Corcel\Tests\BaseTest;
 
-class CommentTest extends PHPUnit_Framework_TestCase
+class CommentTest extends BaseTest
 {
     public function testCommentConstructor()
     {

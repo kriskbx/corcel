@@ -1,10 +1,11 @@
 <?php
 
+use Corcel\Tests\BaseTest;
 use Corcel\User;
 use Corcel\Providers\AuthUserProvider;
 use Corcel\Password\PasswordService;
 
-class AuthenticationTest extends PHPUnit_Framework_TestCase
+class AuthenticationTest extends BaseTest
 {
     public function testPasswordService()
     {

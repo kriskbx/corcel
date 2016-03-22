@@ -2,8 +2,9 @@
 
 use Corcel\Post;
 use Corcel\Page;
+use Corcel\Tests\BaseTest;
 
-class PostTest extends PHPUnit_Framework_TestCase
+class PostTest extends BaseTest
 {
     public function testPostConstructor()
     {
@@ -173,7 +174,7 @@ class PostTest extends PHPUnit_Framework_TestCase
     {
         $post = Post::find(1);
         $post->setConnection('no_prefix');
-
+        
         $this->assertEquals('no_prefix', $post->author->getConnectionName());
     }
 }

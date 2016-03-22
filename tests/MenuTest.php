@@ -1,8 +1,9 @@
 <?php
 
 use Corcel\Menu;
+use Corcel\Tests\BaseTest;
 
-class MenuTest extends PHPUnit_Framework_TestCase
+class MenuTest extends BaseTest
 {
     public function testMenuConstructor()
     {

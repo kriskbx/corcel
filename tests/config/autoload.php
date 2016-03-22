@@ -15,6 +15,8 @@ $capsule->addConnection(array_merge($params, [
     'prefix'    => '',
 ]), 'no_prefix');
 
+$capsule->setAsGlobal();
+
 // $corcel = new \Corcel\Database\Manager();
 
 // $corcel->addConnection([

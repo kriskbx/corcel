@@ -3,8 +3,9 @@
 use Corcel\Post;
 use Corcel\Page;
 use Corcel\PostMeta;
+use Corcel\Tests\BaseTest;
 
-class PostMetaTest extends PHPUnit_Framework_TestCase
+class PostMetaTest extends BaseTest
 {
     public function testPostMetaConstructor()
     {
